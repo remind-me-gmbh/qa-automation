@@ -1,0 +1,19 @@
+{    
+    "Email" : "ahmed@optymyze.io",
+    "PhoneNumber": "87552542118121",
+    "Password": "Pakistan@1234",
+    "ConfirmPassword": "Pakistan@1234",
+    "invalidConfirmpassword": "Pakistan@12346",
+    "Zipcode": "10115",
+    "FirstName" : "QATest",
+    "LastName" : "QATestlastname",
+    "Day" : "11",
+    "Month" : "12",
+    "Year" : "1992",
+    "StreetName" : "Test street name",
+    "House" : "14356",
+    "Iban" : "DE89 3704 0044 0532 0130 00",
+    "invalidEmail" : "ahmed13426.com",
+    "invalidPass" : "testing1237281382130210382198309123"
+}
+  

@@ -1,0 +1,26 @@
+{
+  "name": "playwright_pom_demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.39.0",
+    "@types/node": "^20.9.0",
+    "allure-commandline": "^2.25.0",
+    "jest-allure-reporter": "^1.2.3"
+  
+  },
+  "jest": {
+    "preset": "@playwright/test"
+  },
+  "dependencies": {
+    "2captcha": "^3.0.7",
+    "testrail-api": "^1.3.6"
+  }
+}
