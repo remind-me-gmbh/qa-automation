@@ -39,12 +39,12 @@ export default defineConfig({
 
   /* Configure projects for major browsers */
   projects: [
-    // {
-    //   name: 'chromium',
-    //   use: { ...devices['Desktop Chrome'],
-    //   baseURL: 'https://www.remind.me/',
-    //  },
-    // },
+    {
+      name: 'chromium',
+      use: { ...devices['Desktop Chrome'],
+      baseURL: 'https://www.remind.me/',
+     },
+    },
 
     // {
     //   name: 'firefox',
