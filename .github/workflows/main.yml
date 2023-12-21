@@ -1,0 +1,31 @@
+name: CI
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    env:
+      ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION: false
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16'
+
+      - name: Install dependencies and browsers
+        run: |
+          npm install
+          npx playwright install  # Add this line to install browsers
+        
+
+      - name: Run Playwright tests
+        run: npm test
