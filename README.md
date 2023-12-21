@@ -16,7 +16,7 @@ To leverage this framework for your testing endeavors, follow these steps:
 1. **Clone the Repository:**
    Download the repository or clone it using the following command:
    ```bash
-    git clone https://github.com/Ahmedremind/PlaywrightUItest-remindme/tree/main/PlaywrightUItest-master.git
+    git clone https://github.com/remind-me-gmbh/qa-automation.git
    ```
 
 2. **Check Node.js Version:**
